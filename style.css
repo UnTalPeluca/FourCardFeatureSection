@@ -111,7 +111,7 @@ body{
     .card{
         max-width: 288px;
         margin: auto;
-        padding-top: 15px;
+        padding-top: 25px;
     }
     .grid{
         grid-template-columns: 1fr 1fr 1fr;
