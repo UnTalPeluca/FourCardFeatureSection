@@ -105,9 +105,9 @@ body{
     }
     .card-container{
         max-width: 350px;
-        max-height: 250px;
         background-position-x: 260px;
         background-position-y: 130px;
+        min-height: 250px;
     }
     .card{
         max-width: 288px;
@@ -115,8 +115,8 @@ body{
     }
     .grid{
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 110px 110px 110px;
-        grid-gap: 20px;
+        grid-template-rows: 100px 130px 100px;
+        grid-gap: 25px;
     }
     #supervisor{
         grid-row: 2;
