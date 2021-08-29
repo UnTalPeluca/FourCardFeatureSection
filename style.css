@@ -16,8 +16,7 @@ body{
 .container{
     max-width: 311px;
     margin: auto;
-    padding-bottom: 75px;
-    padding-top: 85px;
+    padding: 75px 0;
 }
 /* Header */
 .header{
@@ -112,6 +111,7 @@ body{
     .card{
         max-width: 288px;
         margin: auto;
+        padding-top: 15px;
     }
     .grid{
         grid-template-columns: 1fr 1fr 1fr;
