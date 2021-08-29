@@ -109,6 +109,10 @@ body{
         background-position-x: 260px;
         background-position-y: 130px;
     }
+    .card{
+        max-width: 288px;
+        margin: auto;
+    }
     .grid{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 110px 110px 110px;
@@ -127,9 +131,6 @@ body{
     #calculator{
         grid-column: 3;
         grid-row:2;
-    }
-    .card-description{
-        width: 286px;
     }
     .attribution{
         font-size: 16px;
